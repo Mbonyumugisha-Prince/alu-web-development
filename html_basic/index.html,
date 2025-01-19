@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweets Page</title>
+</head>
+<body>
+    <h1>Welcome to My Tweets Page</h1>
+
+    <h2>Embedded Tweet</h2>
+    <p>Below is a tweet I want to share:</p>
+    
+    <!-- Embed a Tweet -->
+    <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">Just setting up my Twitter. #myfirsttweet</p>&mdash; Twitter (@Twitter) 
+        <a href="https://twitter.com/Twitter/status/20">January 21, 2007</a>
+    </blockquote>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <h3>Go Back to Homepage</h3>
+    <p>If you want to go back to the homepage, click the link below:</p>
+    <a href="index.html">Go to Homepage</a>
+</body>
+</html>
+
