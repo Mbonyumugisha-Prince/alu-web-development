@@ -1,87 +1,25 @@
-/* base.css */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  flex-direction: column;
 }
-
-/* Flex container for the entire body */
-body {
-    display: flex;           /* Make the body a flex container */
-    flex-direction: column;  /* Stack header, main, and footer vertically */
-    height: 100vh;           /* Ensure the body takes up the full height of the viewport */
-}
-
-/* Flex container for the main section */
 main {
-    display: flex;           /* Make the main a flex container */
-    flex-direction: row;     /* Arrange the children (article and aside) horizontally */
-    flex: auto;              /* Allow main to grow and take the available space */
-    overflow: hidden;        /* Prevent overflow */
-    margin: 20px;            /* Add some margin for spacing */
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  background-color: cadetblue;
 }
-
-/* Header styling */
+main article {
+  flex: 2;
+  overflow-y: auto;
+}
+main aside {
+  flex: 1;
+  color: blue;
+}
 header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+  border: 1px solid red;
 }
 
-header ul {
-    list-style: none;
-    padding: 0;
+.logo {
+  font-size: 2rem;
 }
-
-header ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-header ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* Footer styling */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-}
-
-/* Article takes 2/3 of the width */
-article {
-    flex: 2;                /* Article takes 2 parts of the available space */
-    padding: 20px;
-    overflow-y: auto;       /* Allow vertical scrolling */
-    background-color: #fff;
-    margin-right: 20px;     /* Space between article and aside */
-}
-
-/* Aside takes 1/3 of the width */
-aside {
-    flex: 1;                /* Aside takes 1 part of the available space */
-    padding: 20px;
-    overflow-y: auto;       /* Allow vertical scrolling */
-    background-color: #e4e4e4;
-}
-
-/* Some basic styling for the paragraphs */
-article p, aside p {
-    margin-bottom: 15px;
-}
-
-/* Ensure the footer appears at the bottom */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
