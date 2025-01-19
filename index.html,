@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
 </head>
-
 <body>
+    <!-- Header with navigation links -->
     <header>
         <ul>
-            <li><a href="./index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
         </ul>
     </header>
+
+    <!-- Main content section -->
     <main>
         <article>
-            <h2>Title</h2>
-            <img src="p.jpg" alt="empty">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati distinctio fugit, repellat
-            explicabo voluptatibus rem facere esse architecto sint eius eligendi voluptatum fuga, dolores est labore
-            ullam quisquam quaerat blanditiis?
+            <!-- Content of the page goes here -->
+            <h1>Page Content</h1>
+            <p>Content for this page...</p>
+            <!-- Add other page-specific content here -->
         </article>
-        <aside>placeholder to add comment thread later</aside>
+
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
     </main>
+
+    <!-- Footer with your name and a link -->
     <footer>
-        Made by Abissa - <a href="https://github.com/AbdourahamaneIssakaSani" target="_blank">here</a>
+        <p>Made by Your Name - <a href="https://www.example.com" target="_blank">here</a></p>
     </footer>
 </body>
-
 </html>
+
